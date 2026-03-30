@@ -1,0 +1,20 @@
+EduPath/
+│
+├── app.py                # Main Flask application 
+├── models.py             # OOPS Class definitions 
+├── data_handler.py       # Pandas and NumPy logic 
+├── visualizer.py         # Matplotlib chart generation 
+├── students.csv          # The data storage file 
+├── requirements.txt      # List of dependencies 
+│
+├── static/               # CSS, JS, and Generated Images
+│   ├── css/
+│   │   └── style.css     # Basic styling for the dashboard
+│   └── charts/           # Folder where Matplotlib saves .png files
+│       ├── skills.png
+│       └── eligibility.png
+│
+└── templates/            # HTML Files 
+    ├── index.html        # Landing page
+    ├── register.html     # Form to add new students
+    └── dashboard.html    # Page showing tables and Matplotlib charts
