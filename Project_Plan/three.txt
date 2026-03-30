@@ -1,0 +1,13 @@
+(The Visualization Lead)
+
+Focus: Matplotlib and Insight Generation.
+
+Matplotlib Configuration: Create a visualizer.py script. Set the backend to 'Agg' to ensure it runs correctly on a web server without a GUI.
+
+Generate Bar Charts: Create a function that takes the Pandas DataFrame (from two.md) and plots "Frequency of Skills" among students.
+
+Generate Pie Charts: Plot the ratio of "Placed" vs "Unplaced" or "Eligible" vs "Ineligible" students.
+
+Save to Static: Ensure every plot is saved as a .png file inside the /static/images/ folder with a unique name.
+
+Integration Logic: This file connects to four.md by providing the image paths that will be embedded in the HTML <img> tags. It relies on the cleaned data provided by two.md.
