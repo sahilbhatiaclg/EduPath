@@ -1,0 +1,24 @@
+(The Frontend & Persistence Lead)
+Focus: HTML/Jinja2, File Handling, and Error Catching.
+
+Create Templates: Design index.html, register.html, and dashboard.html using Jinja2 syntax to display dynamic data.
+
+File Operations: Write the logic to append new student data to the students.csv file using standard Python file handling (open(file, 'a')).
+
+Error Handling: Implement try-except blocks on the frontend forms to ensure users don't enter invalid data types (e.g., entering letters in the CGPA field).
+
+UI/UX Layout: Ensure the Matplotlib graphs generated in three.md are correctly aligned and responsive on the dashboard.
+
+Integration Logic: This file is the "Glue." It takes user input and passes it to one.md, saves it via two.md, and displays the final visuals from three.md.
+
+==============================================================================================================================================================
+
+How They Connect Seamlessly:-
+
+The project follows the MVC (Model-View-Controller) pattern:
+
+The Model (two.md & four.md): Your CSV data and Pandas logic handle the "Truth" of the data.
+
+The View (four.md & three.md): HTML and Matplotlib charts handle how the user "Sees" the data.
+
+The Controller (one.md): Flask acts as the traffic cop, taking a request from the View, asking the Model for data, and sending it back to the View.
