@@ -1,0 +1,15 @@
+(The Data Analytics Lead)
+
+Focus: Pandas, NumPy, and Data Filtering.
+
+Setup Data Structure: Create a data_handler.py script.
+
+CSV Loading (Pandas): Write a function to load students.csv into a DataFrame. Handle cases where the file might be empty using try-except.
+
+Numerical Analysis (NumPy): * Convert CGPA columns to NumPy arrays to calculate the batch average and top 10th percentile.
+
+Calculate "Skill Scores" by comparing student skills against a required list.
+
+Filtering Engine: Write a function that accepts a minimum CGPA and returns a filtered DataFrame of eligible candidates.
+
+Integration Logic: This file connects to one.md by providing the filtered data that the Flask routes need to display. It also saves the raw data that three.md will use for visualization.
