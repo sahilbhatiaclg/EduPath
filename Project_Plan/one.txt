@@ -1,0 +1,20 @@
+(The Backend & OOPS Lead)
+Focus: Flask Server, OOPS Architecture, and Routing.
+
+Initialize Flask: Create the main application file (app.py). Define the Flask instance and the basic folder structure (/templates, /static).
+
+Define Classes (OOPS):
+
+Create a Student class with attributes: name, cgpa, skills, attendance.
+
+Create a PlacementCell class to manage a list of Student objects.
+
+Implement Inheritance: Create a SpecializedStudent class that inherits from Student to handle certifications or research papers.
+
+Create Routes:
+
+@app.route('/'): The Home/Landing page.
+
+@app.route('/add_student'): A route to handle the POST request from the registration form.
+
+Integration Logic: This file connects to two.md by passing the Student object data to the Pandas functions and connects to four.md by rendering the HTML templates.
