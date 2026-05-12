@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EduPath - Register</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #eee;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+    h1 { font-size: 2rem; color: #00d4ff; margin-bottom: 24px; }
+    form {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(0,212,255,0.2);
+      border-radius: 12px;
+      padding: 30px;
+      width: 100%;
+      max-width: 450px;
+    }
+    label { display: block; margin-bottom: 6px; color: #aaa; font-size: 0.9rem; }
+    input {
+      width: 100%;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      background: #0f0f1a;
+      color: #eee;
+      margin-bottom: 18px;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #00d4ff;
+      color: #000;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.85; }
+    .message {
+      margin-top: 16px;
+      padding: 12px;
+      background: rgba(0,212,255,0.1);
+      border: 1px solid #00d4ff;
+      border-radius: 6px;
+      text-align: center;
+      color: #00d4ff;
+    }
+    .back { margin-top: 20px; color: #aaa; font-size: 0.9rem; }
+    .back a { color: #00d4ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>📝 Register Student</h1>
+  <form method="POST">
+    <label>Student Name</label>
+    <input type="text" name="name" placeholder="e.g. Rahul Sharma" required />
+
+    <label>CGPA (out of 10)</label>
+    <input type="number" name="cgpa" placeholder="e.g. 8.5" step="0.1" min="0" max="10" required />
+
+    <label>Skills (comma-separated)</label>
+    <input type="text" name="skills" placeholder="e.g. Python, SQL, Flask" required />
+
+    <label>Attendance (%)</label>
+    <input type="number" name="attendance" placeholder="e.g. 85" step="0.1" min="0" max="100" required />
+
+    <button type="submit">Register</button>
+  </form>
+
+  {% if message %}
+    <div class="message">✅ {{ message }}</div>
+  {% endif %}
+
+  <p class="back"><a href="/">← Back to Home</a></p>
+</body>
+</html>

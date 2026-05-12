@@ -1,0 +1,12 @@
+name,cgpa,skills,attendance,eligible
+Rahul Sharma,8.5,"Python, SQL, Flask",90.0,Yes
+Priya Patel,6.8,"HTML, CSS, JavaScript",72.0,No
+Arjun Mehta,9.1,"Python, Machine Learning, NumPy",95.0,Yes
+Sneha Reddy,7.2,"Java, Spring Boot",80.0,Yes
+Karan Singh,5.9,"C++, DSA",65.0,No
+Divya Nair,8.0,"Python, Pandas, Matplotlib",85.0,Yes
+Sachin Vishwakarma,8.5,"Python,SQL,DSA,Cpp",95.0,Yes
+Himanshu Gahlot,9.1,"Python, SAS, DSA,DBMS",92.0,Yes
+Sayan Mitra,9.0,"Python, SAS, DSA,DBMS",75.5,Yes
+Kumar Shailendra,4.5,"Python,SQL,DSA",50.0,No
+Rohit ,9.3,"python,Java,R,C,Autocad,Fusion,PBL",95.0,Yes
