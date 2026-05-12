@@ -1,5 +1,4 @@
 # EduPath
-<<<<<<< HEAD
 
 EduPath is a simple Flask app for registering students, saving their details to a CSV file, and viewing a performance dashboard.
 
