@@ -10,4 +10,4 @@ python app.py
 ```
 
 Open `http://127.0.0.1:5000` in your browser.
-Repo for Python Group Project for Semester-2
+
